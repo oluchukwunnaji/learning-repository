@@ -1,0 +1,103 @@
+@font-face {
+    font-family: inter;
+    src: url("fonts/Inter-VariableFont_slnt\,wght.ttf");
+}
+
+@font-face {
+    font-family: montserrat;
+    src: url("fonts/Montserrat-Regular.ttf");
+}
+
+body{
+    background-image: url("images/looogin.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.mainbody {
+    width: 40%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: rgb(214, 133, 29, 0.6);
+    margin-top: 5%;
+}
+
+.gold {
+    background-color: #103836;
+    width: 100%;
+    padding: 1% 0;
+}
+
+.heading {
+    color: #103836;
+    font-family: montserrat;
+    display: block;
+    font-size: 250%;
+    text-align: center;
+    margin: 10% 0;
+}
+
+.all {
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    width: 90%;
+}
+
+
+i {
+    padding: 8px;
+    background-color: #C4C4C4;
+    border-right: 3px solid #103836;
+    font-size: 20px;
+}
+
+.same {
+    margin-bottom: 5%;
+    display: inline-flex;
+    width: 100%;
+}
+
+.inputfield {
+    width: 100%;
+    outline: none;
+}
+
+.forgot {
+    text-align: right;
+    margin-top: 0;
+}
+
+.forgot a {
+    text-decoration: none;
+    color: black;
+    font-size: small;
+}
+
+button {
+    padding: 2% 4%;
+    background-color: #103836;
+    font-family: montserrat;
+    font-weight: bolder;
+    font-size: 120%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    color: white;
+    margin-bottom: 5%;
+}
+
+@media screen and (max-width: 800px) {
+    .mainbody{
+        width: 100%;
+        margin: 0;
+    }
+
+    .heading {
+        font-size: 120%;
+    }
+
+}
